@@ -10,31 +10,7 @@ import java.util.*;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/*
- * StayHub - Single File Java Full-Stack House Rental Website
- *
- * Requirements:
- *   Java 17+ (Java 21/25 also works)
- *
- * Run:
- *   javac StayHub.java
- *   java StayHub
- *
- * Open:
- *   http://localhost:8080
- *
- * This is a self-contained demo:
- * - Java HTTP server/backend
- * - HTML + CSS + JavaScript frontend
- * - Registration/Login with Owner/Renter roles
- * - Owner property management
- * - House photographs
- * - Property details
- * - Rental booking requests
- * - Renter booking history
- *
- * Data is stored in memory, so it resets when the application restarts.
- */
+
 public class StayHub {
 
     private static final int PORT = 8080;
